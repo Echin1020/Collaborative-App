@@ -28,10 +28,10 @@ class Recruitment extends Model
         return $this->belongsTo(Tech::class);
     }
 
-    public function flags()
-    {
-        return $this->hasMany(Flag::class);
-    }
+    // public function flags()
+    // {
+    //     return $this->hasMany(Flag::class);
+    // }
 
     public function comments()
     {

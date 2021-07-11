@@ -19,6 +19,7 @@ class CreateRecruitmentsTable extends Migration
             $table->bigInteger('user_id')->unsigned();
             $table->bigInteger('tech_thumbnail_id')->unsigned();
             $table->text('summary');
+            $table->boolean('recruit_flag');
             $table->timestamps();
             $table->softDeletes();
 
